@@ -8,7 +8,7 @@ def read_input(filename):
     libraries = {}
     books = {}
 
-    with open(filename) as f:
+    with open(filename, "r") as f:
         # Read first line
         line = f.readline().split(" ")
         nb_books = int(line[0])
